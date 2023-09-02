@@ -1,0 +1,252 @@
+
+
+    /*
+    font-family: 'Inter', sans-serif;
+    font-family: 'Sen', sans-serif;
+    */
+
+    *,*::before,*::after {
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #013243;
+        height: 100vh;
+    }
+
+    h1,h2 {
+        margin-top: 0;
+        line-height: 1.2;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    
+    .nav {
+        display: flex;
+        align-items: center;
+        padding-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    /* .logo {
+        
+    } */
+
+    .row--img {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .tittle--text {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0 auto;
+    }
+
+    .added--text {
+        display: none;
+    }
+    .tittle {
+        font-size: 3.75rem;
+        letter-spacing: 2px;
+        font-family: 'Sen', sans-serif;
+        color: #32F5C8;
+        padding-bottom: .6em;
+        margin-top: -35px;
+    }
+
+    .sub__tittle--text {
+        color: #fff;
+        font-family: 'Inter', sans-serif;
+        font-size: 28px;
+        line-height: 1.2;
+        opacity: .65;
+    }
+
+    .more--img {
+        display: none;
+    }
+
+    .launch--btn {
+        display: inline-block;
+        margin-top: 1em;
+        padding: 1em 1em;
+        font-family: 'Sen', sans-serif;
+        font-weight: 800;
+        background-color: #32F5C8;
+        color: #013243;
+        border-radius: 5px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .launch--btn:hover,
+    .launch--btn:focus {
+        opacity: .75;
+    }
+
+    .btn--side--img {
+        position: absolute;
+        top: 77.5%;
+        right: 25%;
+        z-index: -1;
+    }
+
+    .footer {
+        display: flex;
+        align-items: center;
+        padding-top: 12em;
+        padding-bottom: 2em
+    }
+
+    .twitter--text {
+        margin-left: 1em;
+        color: #fff;
+        opacity: .65;
+        font-size: 20px;
+        font-family: 'Sen', sans-serif; 
+    }
+
+    @media (min-width :640px ) {
+            .nav {
+                margin-bottom: 1em;
+            }
+
+            .row--img {
+                padding-bottom: 5em;
+            }
+
+            .tittle {
+                font-size: 5rem;
+                line-height: 1.4;
+            }
+
+            .sub__tittle--text {
+                font-size: 27px;
+                width: 70%;
+            }
+
+            .btn--side--img {
+                top: 65%;
+                right: 6%;
+            }
+
+
+            .more--img {
+                display: block;
+                position: absolute;
+            }
+
+            .more--img--item:nth-child(1) {
+                position: inherit;
+                top: -5%;
+                right: -150%;
+            }
+
+            .more--img--item:nth-child(2) {
+                position: inherit;
+                top: -15%;
+                right: -90%;
+                z-index: -2;
+            }
+
+            .last {
+                padding-top: 140%;
+                margin-left: 150%;
+            }
+
+            
+        }
+
+        @media (min-width: 900px) {
+
+            .container {
+                width: 75%;
+                margin: 0 auto;
+            }
+            .row--img {
+                padding-bottom: -0;
+                position: absolute;
+                z-index: -2;
+            }
+
+            .row--img img:first-child{
+                position: inherit;
+                top: 6%;
+                left: -60%;
+            }
+            .row--img img:last-child {
+                position: relative;
+                top: -20px;
+                left: 465%;
+
+            }
+
+            .added--text {
+                display: inline-block;
+            }
+
+            .tittle {
+                font-size: 7.5rem;
+                margin-top: 2rem;
+                padding-bottom: .2em;
+                word-spacing: 1rem;
+            }
+
+            .ontop--text {
+                position: relative;
+                z-index: 101;
+            }
+
+            .sub__tittle--text {
+                font-size: 21px;
+                width: 50%;
+                line-height: 1.5;
+            }
+
+            .more--img--item:nth-child(1) {
+                position: inherit;
+                top: 38%;
+                right: -280%;
+                z-index: -2;
+            }
+
+            .more--img--item:nth-child(2) {
+                position: inherit;
+                top: 1%;
+                right: -200%;
+            }
+
+            .last {
+                padding-top: 195%;
+                padding-bottom: 2rem;
+                margin-left: 245%;
+            }
+
+            .btn--side--img {
+                top: 53.5%;
+                right: 42.5%;
+                z-index: 100;
+            }
+
+            .footer {
+                padding-top: 4em;
+            }
+
+            
+        }
