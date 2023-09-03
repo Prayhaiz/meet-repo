@@ -14,7 +14,7 @@
         margin: 0;
         padding: 0;
         background-color: #013243;
-        height: 100vh;
+        min-height: 660px;
     }
 
     h1,h2 {
